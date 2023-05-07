@@ -79,9 +79,10 @@ legend {
     background-image: linear-gradient(to right,#090218, #9a060d);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
     .inicio {
-        width: 70%;
+        width: 75%;
+        margin-top: 40px;
     }
 }
 
