@@ -1,0 +1,87 @@
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-image: url('imagem/fundo-azul.jpg');
+}
+
+.inicio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #20205ccc;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+}
+
+fieldset {
+    border: 2px solid #0f7ce8;
+}
+
+legend {
+    border: 2px solid #a81a04;
+    background-color: #0f7ce8;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.input {
+    position: relative;
+}
+
+.input-2 {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    outline: none;
+    color: #ffffff;
+    font-size: 18px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+
+.label-input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-2:focus ~ .label-input,
+.input-2:valid ~ .label-input {
+    top: -25px;
+    font-size: 14px;
+    color: #0f7ce8;
+}
+
+#data_nacimento{
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#submit {
+    background-image: linear-gradient(to right,#110234, #530a50);
+    width: 100%;
+    border: none;
+    padding: 12px;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit:hover {
+    background-image: linear-gradient(to right,#090218, #9a060d);
+}
+
+@media (max-width: 480px) {
+    .inicio {
+        width: 70%;
+    }
+}
+
