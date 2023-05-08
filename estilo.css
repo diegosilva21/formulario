@@ -99,9 +99,10 @@ legend {
     }
 
     #data_nascimento {
-        width: 120px;
+        width: 100px;
         font-size: 15px;
         margin-left: 5px;
+        padding: 10px 5px:
     }
 
     .nascimento {
