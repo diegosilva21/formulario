@@ -104,8 +104,9 @@ legend {
         margin-left: 5px;
         padding: 10px 5px:
     }
-
-    .nascimento {
-        font-size: 15px;
+    
+        .nascimento {
+        margin-bottom: 5px;
     }
-}
+    
+}    
