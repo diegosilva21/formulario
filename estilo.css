@@ -1,8 +1,6 @@
 body {
     font-family: 'Bai Jamjuree', sans-serif;
-    background-image: url('imagem/fundo-azul.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to left, rgb(51, 115, 66), rgb(135, 85, 76), rgb(97, 104, 160));
 }
 
 .inicio {
